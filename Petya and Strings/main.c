@@ -24,8 +24,6 @@ int main(void)
 	i = 0;
 	scanf("%s", s1);
 	scanf("%s", s2);
-	// memset(s1, 0, 100);
-	// memset(s2, 0, 100);
 	str_to_lower(s1);
 	str_to_lower(s2);
 	while (s1[i] && s2[i] && s1[i] == s2[i])
